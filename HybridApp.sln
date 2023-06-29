@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebAppCreator", "WebAppCreator\WebAppCreator.vbproj", "{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebAppPackage", "WebAppPackage\WebAppPackage.vbproj", "{FBF34D4E-55F5-459A-AC70-24C8C2612280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAppCreator", "WebAppCreator", "{F7E6DE7C-AB08-4EBA-BC4A-82B970A8B2E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAppPackage", "WebAppPackage", "{5F1B6351-ACD8-408C-941E-4FA29F700C87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}.Debug|x86.Build.0 = Debug|Any CPU
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}.Release|x86.ActiveCfg = Release|Any CPU
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A}.Release|x86.Build.0 = Release|Any CPU
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Debug|x86.Build.0 = Debug|Win32
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Release|x86.ActiveCfg = Release|Win32
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A} = {F7E6DE7C-AB08-4EBA-BC4A-82B970A8B2E9}
+		{FBF34D4E-55F5-459A-AC70-24C8C2612280} = {5F1B6351-ACD8-408C-941E-4FA29F700C87}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE2E2EB4-EA83-455C-A1D5-6A7692D82777}
+	EndGlobalSection
+EndGlobal
