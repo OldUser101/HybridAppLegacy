@@ -22,6 +22,7 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
         Me.WebView21 = New Microsoft.Web.WebView2.WinForms.WebView2()
         CType(Me.WebView21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -38,14 +39,15 @@ Partial Class Main
         Me.WebView21.TabIndex = 0
         Me.WebView21.ZoomFactor = 1.0R
         '
-        'Form1
+        'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.WebView21)
         Me.DataBindings.Add(New System.Windows.Forms.Binding("WindowState", Global.WebApp.My.MySettings.Default, "windowState", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
-        Me.Name = "Form1"
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "Main"
         Me.Text = "Form1"
         Me.WindowState = Global.WebApp.My.MySettings.Default.windowState
         CType(Me.WebView21, System.ComponentModel.ISupportInitialize).EndInit()

@@ -197,7 +197,7 @@ Partial Class Main
         Me.Panel1.Size = New System.Drawing.Size(31, 5)
         Me.Panel1.TabIndex = 15
         '
-        'Form1
+        'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
@@ -219,8 +219,9 @@ Partial Class Main
         Me.Controls.Add(Me.lblAppName)
         Me.Controls.Add(Me.Label6)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "HybridApp Creator"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

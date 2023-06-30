@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAppCreator", "WebAppCrea
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAppPackage", "WebAppPackage", "{5F1B6351-ACD8-408C-941E-4FA29F700C87}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAppSetup", "WebAppSetup", "{21EDE10A-827F-497F-8DAC-3B589C1D379F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WebAppSetup", "WebAppSetup\WebAppSetup\WebAppSetup.vdproj", "{9995EDC7-C71E-4901-9EC6-0DC7DFECAAB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Release|x86.ActiveCfg = Release|Win32
 		{FBF34D4E-55F5-459A-AC70-24C8C2612280}.Release|x86.Build.0 = Release|Win32
+		{9995EDC7-C71E-4901-9EC6-0DC7DFECAAB1}.Debug|Any CPU.ActiveCfg = Debug
+		{9995EDC7-C71E-4901-9EC6-0DC7DFECAAB1}.Debug|x86.ActiveCfg = Debug
+		{9995EDC7-C71E-4901-9EC6-0DC7DFECAAB1}.Release|Any CPU.ActiveCfg = Release
+		{9995EDC7-C71E-4901-9EC6-0DC7DFECAAB1}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A40B72AC-2302-46D6-AAF1-4C60DFB4B23A} = {F7E6DE7C-AB08-4EBA-BC4A-82B970A8B2E9}
 		{FBF34D4E-55F5-459A-AC70-24C8C2612280} = {5F1B6351-ACD8-408C-941E-4FA29F700C87}
+		{9995EDC7-C71E-4901-9EC6-0DC7DFECAAB1} = {21EDE10A-827F-497F-8DAC-3B589C1D379F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE2E2EB4-EA83-455C-A1D5-6A7692D82777}
