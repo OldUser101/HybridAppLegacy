@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_5B9C5F5123124544B18C86E334C94CED"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6A73EF1BFEBF4A01AFE5E09265475C2F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -52,12 +58,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1BB8CCAE6E65B83F3088065DCBA2DFC3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_9CB2CB1C017A48A28CAF623EF67DAFB8"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -79,6 +79,12 @@
         "OwnerKey" = "8:_7A028E13CA8EC9F1BA4F6C9AAF095A59"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1BB8CCAE6E65B83F3088065DCBA2DFC3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -97,6 +103,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -113,6 +135,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -171,6 +201,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5B9C5F5123124544B18C86E334C94CED"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\hybrid_app_banner.jpg"
+            "TargetName" = "8:hybrid_app_banner.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_50CD6526D2A44BB7B35804893BB91A1F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6A73EF1BFEBF4A01AFE5E09265475C2F"
@@ -343,7 +393,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:HybridApp"
         "ProductCode" = "8:{E62831A7-10EE-420F-B47B-BEF2A30D21EB}"
-        "PackageCode" = "8:{EB9B759A-5B7B-4AE2-85C6-73673A73DF08}"
+        "PackageCode" = "8:{B121489E-4AE3-4209-8191-59127AF6C8D4}"
         "UpgradeCode" = "8:{E7AF3982-F23F-42AA-80EF-5FBCAB189307}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -524,7 +574,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -568,7 +619,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -618,7 +670,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -662,7 +715,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -697,7 +751,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -708,8 +763,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -745,7 +800,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -776,7 +832,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -807,7 +864,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -818,8 +876,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -855,7 +913,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -877,7 +936,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_5B9C5F5123124544B18C86E334C94CED"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -920,7 +980,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9CB2CB1C017A48A28CAF623EF67DAFB8"
             {
-            "SourcePath" = "8:..\\..\\WebAppCreator\\obj\\Debug\\WebAppCreator.exe"
+            "SourcePath" = "8:..\\WebAppCreator\\obj\\Debug\\WebAppCreator.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_50CD6526D2A44BB7B35804893BB91A1F"
