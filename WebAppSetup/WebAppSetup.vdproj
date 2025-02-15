@@ -33,6 +33,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_2A1471397E3E45969F575273B3569CD0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_41C65177279043188D0D9ECBC8730999"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -253,8 +259,28 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2A1471397E3E45969F575273B3569CD0"
+            {
+            "SourcePath" = "8:LICENSE.txt"
+            "TargetName" = "8:LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_50CD6526D2A44BB7B35804893BB91A1F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_41C65177279043188D0D9ECBC8730999"
@@ -304,7 +330,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -426,15 +452,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:HybridApp"
-        "ProductCode" = "8:{BC9E9CEE-79D0-43DA-9AEE-A79F4C0877C9}"
-        "PackageCode" = "8:{DFA42138-59F4-487C-B574-F5389926D30E}"
+        "ProductCode" = "8:{F7B66E72-B362-429C-AB67-BD993FBB977B}"
+        "PackageCode" = "8:{E31F296E-29A2-46F2-9CAB-87E60AF3FEED}"
         "UpgradeCode" = "8:{E7AF3982-F23F-42AA-80EF-5FBCAB189307}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:Nathan Gill"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -986,7 +1012,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9CB2CB1C017A48A28CAF623EF67DAFB8"
             {
-            "SourcePath" = "8:..\\WebAppCreator\\obj\\Release\\WebAppCreator.exe"
+            "SourcePath" = "8:..\\WebAppCreator\\obj\\Debug\\WebAppCreator.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_50CD6526D2A44BB7B35804893BB91A1F"
