@@ -46,18 +46,20 @@ Partial Class Main
         'lblAppName
         '
         Me.lblAppName.AutoSize = True
-        Me.lblAppName.Location = New System.Drawing.Point(13, 50)
+        Me.lblAppName.Location = New System.Drawing.Point(20, 75)
+        Me.lblAppName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblAppName.Name = "lblAppName"
-        Me.lblAppName.Size = New System.Drawing.Size(60, 13)
+        Me.lblAppName.Size = New System.Drawing.Size(88, 20)
         Me.lblAppName.TabIndex = 0
         Me.lblAppName.Text = "App Name:"
         '
         'lblWebAddress
         '
         Me.lblWebAddress.AutoSize = True
-        Me.lblWebAddress.Location = New System.Drawing.Point(13, 77)
+        Me.lblWebAddress.Location = New System.Drawing.Point(20, 116)
+        Me.lblWebAddress.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblWebAddress.Name = "lblWebAddress"
-        Me.lblWebAddress.Size = New System.Drawing.Size(74, 13)
+        Me.lblWebAddress.Size = New System.Drawing.Size(109, 20)
         Me.lblWebAddress.TabIndex = 1
         Me.lblWebAddress.Text = "Web Address:"
         '
@@ -66,43 +68,48 @@ Partial Class Main
         Me.chkStartShortcut.AutoSize = True
         Me.chkStartShortcut.Checked = True
         Me.chkStartShortcut.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkStartShortcut.Location = New System.Drawing.Point(13, 104)
+        Me.chkStartShortcut.Location = New System.Drawing.Point(20, 156)
+        Me.chkStartShortcut.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkStartShortcut.Name = "chkStartShortcut"
-        Me.chkStartShortcut.Size = New System.Drawing.Size(111, 17)
+        Me.chkStartShortcut.Size = New System.Drawing.Size(165, 24)
         Me.chkStartShortcut.TabIndex = 2
         Me.chkStartShortcut.Text = "Add to Start menu"
         Me.chkStartShortcut.UseVisualStyleBackColor = True
         '
         'btnCreate
         '
-        Me.btnCreate.Location = New System.Drawing.Point(163, 152)
+        Me.btnCreate.Location = New System.Drawing.Point(244, 228)
+        Me.btnCreate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnCreate.Name = "btnCreate"
-        Me.btnCreate.Size = New System.Drawing.Size(75, 23)
+        Me.btnCreate.Size = New System.Drawing.Size(112, 34)
         Me.btnCreate.TabIndex = 3
         Me.btnCreate.Text = "Create"
         Me.btnCreate.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(244, 152)
+        Me.btnClose.Location = New System.Drawing.Point(366, 228)
+        Me.btnClose.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(75, 23)
+        Me.btnClose.Size = New System.Drawing.Size(112, 34)
         Me.btnClose.TabIndex = 4
         Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'txtAppName
         '
-        Me.txtAppName.Location = New System.Drawing.Point(77, 47)
+        Me.txtAppName.Location = New System.Drawing.Point(116, 70)
+        Me.txtAppName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtAppName.Name = "txtAppName"
-        Me.txtAppName.Size = New System.Drawing.Size(242, 20)
+        Me.txtAppName.Size = New System.Drawing.Size(361, 26)
         Me.txtAppName.TabIndex = 5
         '
         'txtWebAddress
         '
-        Me.txtWebAddress.Location = New System.Drawing.Point(92, 75)
+        Me.txtWebAddress.Location = New System.Drawing.Point(138, 112)
+        Me.txtWebAddress.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWebAddress.Name = "txtWebAddress"
-        Me.txtWebAddress.Size = New System.Drawing.Size(227, 20)
+        Me.txtWebAddress.Size = New System.Drawing.Size(338, 26)
         Me.txtWebAddress.TabIndex = 6
         '
         'chkDesktopShortcut
@@ -110,9 +117,10 @@ Partial Class Main
         Me.chkDesktopShortcut.AutoSize = True
         Me.chkDesktopShortcut.Checked = True
         Me.chkDesktopShortcut.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkDesktopShortcut.Location = New System.Drawing.Point(13, 127)
+        Me.chkDesktopShortcut.Location = New System.Drawing.Point(20, 190)
+        Me.chkDesktopShortcut.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkDesktopShortcut.Name = "chkDesktopShortcut"
-        Me.chkDesktopShortcut.Size = New System.Drawing.Size(139, 17)
+        Me.chkDesktopShortcut.Size = New System.Drawing.Size(205, 24)
         Me.chkDesktopShortcut.TabIndex = 7
         Me.chkDesktopShortcut.Text = "Add shortcut to desktop"
         Me.chkDesktopShortcut.UseVisualStyleBackColor = True
@@ -124,18 +132,20 @@ Partial Class Main
         'pbProgress
         '
         Me.pbProgress.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pbProgress.Location = New System.Drawing.Point(0, 183)
+        Me.pbProgress.Location = New System.Drawing.Point(0, 274)
+        Me.pbProgress.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pbProgress.Maximum = 98
         Me.pbProgress.Name = "pbProgress"
-        Me.pbProgress.Size = New System.Drawing.Size(325, 21)
+        Me.pbProgress.Size = New System.Drawing.Size(488, 32)
         Me.pbProgress.TabIndex = 8
         '
         'lblStatus
         '
         Me.lblStatus.AutoSize = True
-        Me.lblStatus.Location = New System.Drawing.Point(7, 163)
+        Me.lblStatus.Location = New System.Drawing.Point(10, 244)
+        Me.lblStatus.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblStatus.Name = "lblStatus"
-        Me.lblStatus.Size = New System.Drawing.Size(60, 13)
+        Me.lblStatus.Size = New System.Drawing.Size(90, 20)
         Me.lblStatus.TabIndex = 9
         Me.lblStatus.Text = "Status: Idle"
         '
@@ -143,18 +153,20 @@ Partial Class Main
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(173, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(260, 10)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(52, 34)
+        Me.PictureBox1.Size = New System.Drawing.Size(78, 51)
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(216, 11)
+        Me.Label4.Location = New System.Drawing.Point(324, 16)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(109, 26)
+        Me.Label4.Size = New System.Drawing.Size(160, 40)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Powered by Microsoft" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WebView2"
         '
@@ -163,9 +175,10 @@ Partial Class Main
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(214, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(13, 7)
+        Me.Label5.Location = New System.Drawing.Point(20, 10)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(86, 20)
+        Me.Label5.Size = New System.Drawing.Size(132, 31)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "HybridApp"
         '
@@ -174,34 +187,37 @@ Partial Class Main
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(214, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(93, 19)
+        Me.Label6.Location = New System.Drawing.Point(145, 29)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(61, 20)
+        Me.Label6.Size = New System.Drawing.Size(93, 31)
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "Creator"
         '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(220, 105)
+        Me.LinkLabel1.Location = New System.Drawing.Point(330, 158)
+        Me.LinkLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(98, 13)
+        Me.LinkLabel1.Size = New System.Drawing.Size(147, 20)
         Me.LinkLabel1.TabIndex = 14
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "License Agreement"
         '
         'Panel1
         '
-        Me.Panel1.Location = New System.Drawing.Point(286, 31)
+        Me.Panel1.Location = New System.Drawing.Point(429, 46)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(31, 5)
+        Me.Panel1.Size = New System.Drawing.Size(46, 8)
         Me.Panel1.TabIndex = 15
         '
         'Main
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.ClientSize = New System.Drawing.Size(325, 204)
+        Me.ClientSize = New System.Drawing.Size(488, 306)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label5)
@@ -220,6 +236,7 @@ Partial Class Main
         Me.Controls.Add(Me.Label6)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

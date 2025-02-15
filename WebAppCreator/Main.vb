@@ -104,7 +104,11 @@ Public Class Main
             Dim destinationPath As String = Path.GetFullPath(Path.Combine(programPath, entry.FullName))
             If destinationPath.StartsWith(programPath, StringComparison.Ordinal) Then
                 Directory.CreateDirectory(Path.GetDirectoryName(destinationPath))      ' ZipArchive does not handle directories, so create them when needed
-                entry.ExtractToFile(destinationPath)      ' Extract the target file
+                Try
+                    entry.ExtractToFile(destinationPath)      ' Extract the target file
+                Catch ex As Exception
+                    Continue For
+                End Try
             End If
         Next
 
@@ -144,7 +148,7 @@ Public Class Main
             IO.File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu), "Programs\", appName + ".lnk"))     ' Delete any existing shortcuts to the application
             IO.File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), appName + ".lnk"))
         Catch ex As Exception
-
+            ' v1.0.1 We should really do something here.
         End Try
 
         If createStartMenuShortcut Then    ' Create the start menu shortcut if the user has asked for it
@@ -223,7 +227,10 @@ Public Class Main
     End Sub
 
     Private Sub Panel1_Click(sender As Object, e As EventArgs) Handles Panel1.Click
-        MessageBox.Show(System.Text.Encoding.ASCII.GetString(GetBytes(Strings.StrReverse("C6C6967402E616864716E40233230323029234820247867696279707F634"))), "IMPORTANT!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+        ' Commented out the old message. But kept it because why not. This is the final version anyway.
+        ' MessageBox.Show(System.Text.Encoding.ASCII.GetString(GetBytes(Strings.StrReverse("C6C6967402E616864716E40233230323029234820247867696279707F634"))), "IMPORTANT!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+        ' EXERCISE FOR THE READER: Figure out how to encode one of these strings. If you do not have the VS designer, figure out how this code is called as well.
+        MessageBox.Show(System.Text.Encoding.ASCII.GetString(GetBytes(Strings.StrReverse("92A3021297164602563696E6021602566716840202020202020202A01303132756375546C6F4F2D6F636E2265786479676F2F2A337074747860202A0E23796864702564616D60294029786770277F6E6B6024772E6F6460294020202A0C6C6967402E616864716E40253230323D233230323029234820247867696279707F634A013E203E2136702929736167656C482020707144696272697840202020202"))), "IMPORTANT!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
     End Sub
 
     ' Retrives a byte array from a hexadecimal string

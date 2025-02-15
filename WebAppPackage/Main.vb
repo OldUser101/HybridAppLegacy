@@ -1,5 +1,5 @@
 ﻿Imports System.IO
-Imports System.Net
+Imports System.Net  ' v1.0.1 Why??
 Public Class Main
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadData()
@@ -19,7 +19,7 @@ Public Class Main
         Catch ex As Exception
             MessageBox.Show("Failed to load application resources. Please create this Web App again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
-        'End If
+        'End If  ' v1.0.1 This has to be a joke.
     End Sub
 
 
